@@ -124,7 +124,7 @@ const newarr=arr.slice(-1)//it will include 0 index but remove 2
 //splice- Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
 
 arr.splice(1,2,"orange");
-console.log(arr);
+//console.log(arr);
 
 //fill
 const dummy=[11,22,33,44]
@@ -140,6 +140,18 @@ const index=nums.findIndex((item)=>
 
 //flat
 
+const no=[1,[2,3],[[4,5]],6];//=>[1,2,3,4,5,6]
+const no1=no.flat(2);
+console.log(no1)
 
 
+//reverse
+const rev=[12,3,4,23,334,4545]
+const donerev=rev.reverse();
+console.log(donerev);
 
+
+//sort 
+const sorted=[12,234,54,67,68,78,34,34,4,657,68,8,9,99]
+const donesort=sorted.sort((a,b)=>b-a);
+console.log(donesort);
