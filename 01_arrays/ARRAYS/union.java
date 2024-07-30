@@ -2,7 +2,7 @@ package ARRAYS;
 import java.util.*;
 public class union {
     static ArrayList<Integer> findunion(int arr1[], int arr2[] ,int n,int m){
-        int i=0, j=0;
+        int i=0, j=0; 
 
         ArrayList<Integer>union=new ArrayList<>();
         while(i<n && j<m){
