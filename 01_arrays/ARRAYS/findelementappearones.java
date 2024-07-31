@@ -35,7 +35,7 @@ public class findelementappearones {
             return -1;
 
         }*/
-        public static int getsingleElement(int []arr){
+        
             int n=arr.length;
 
             hashmap<Integer,Integer>mpp=new hashmap<>();
