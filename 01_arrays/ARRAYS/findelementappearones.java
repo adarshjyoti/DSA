@@ -35,7 +35,22 @@ public class findelementappearones {
             return -1;
 
         }*/
+        public static int getsingleElement(int []arr){
+            int n=arr.length;
 
+            hashmap<Integer,Integer>mpp=new hashmap<>();
+            for(int i=0; i<n; i++){
+                int value=mpp.getOrDefault(arr[i],0);
+                mpp.put(arr[i],value+1);
+            }
+            for(map.entry<Integer,Integer>it: mpp.entry.set()){
+                if(it.getValue()==1){
+                    return it.getKey();
+                }
+            }
+            return -1;
+
+        }
 
         
     public static void main(String[] args) {
